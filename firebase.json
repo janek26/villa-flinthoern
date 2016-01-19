@@ -1,0 +1,9 @@
+{
+  "firebase": "villa-flinthoern",
+  "public": "public",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}
