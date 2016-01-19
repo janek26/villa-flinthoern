@@ -280,7 +280,7 @@ function book() {
 		setTimeout(function() {     window.location.href = link;    }, 1000);
 	});
 	$(":radio").labelauty({ minimum_width: "100%" });
-	var link = 1;
+	var link = "http://www.us-nordsee.de/mietobjekte/viewproperty/villa-flinthoern-wohnung-1/195/de.html";
 	$(".labelauty").click( function(){
 	  if( $(this).is(':checked') ){
 		switch ($(this).val()) {
