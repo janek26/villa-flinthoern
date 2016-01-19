@@ -276,6 +276,11 @@
 
 })(jQuery);
 
+function contact() {
+	swal(     'Auf Wiedersehen!',     'Sie werden in Kürze weitergeleitet',     'success'   );
+	setTimeout(function() {     window.location.href = "http://www.us-nordsee.de/service/anfrage.html";    }, 1000);
+}
+
 function book() {
 	swal({   title: 'Wählen Sie Ihre Wohnung!', html: '<p>Bitte wählen Sie nun die Wohnung welche Sie gerne mieten möchten!</p><ul style="margin: 10px;"><li><input checked name="w" value="1" type="radio" data-labelauty="Nicht Wohnung 1|Wohnung 1 mieten!"/></li><li><input name="w" value="2" type="radio" data-labelauty="Nicht Wohnung 2|Wohnung 2 mieten!"/></li><li><input name="w" value="3" type="radio" data-labelauty="Nicht Wohnung 3|Wohnung 3 mieten!"/></li><li><input name="w" value="4" disabled type="radio" data-labelauty="Nicht Wohnung 4|Wohnung 4 mieten!"/></li><li><input name="w" value="5" type="radio" data-labelauty="Nicht Wohnung 5|Wohnung 5 mieten!"/></li></ul><p>Da die Wohnungen bei der Vermietung von einer Agentur betreut wird, werden Sie zur Buchung auf eine externe Seite weitergeleitet.</p>', type: 'info',   showCancelButton: true,   confirmButtonColor: '#3085d6',   cancelButtonColor: '#d33',   confirmButtonText: 'Seite wechseln!', cancelButtonText: 'Abbrechen', closeOnConfirm: false }, function() {
 		swal(     'Auf Wiedersehen!',     'Sie werden in Kürze weitergeleitet',     'success'   );
