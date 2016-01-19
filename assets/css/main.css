@@ -3043,5 +3043,9 @@
 
 	.not-active {
 		pointer-events: none;
-    cursor: not-allowed;
+    cursor: default;
+		cursor: not-allowed;
+	}
+	.not-active:hover {
+		cursor: not-allowed;
 	}
