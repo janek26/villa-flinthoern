@@ -268,6 +268,8 @@
 
 		});
 
+		$(".not-active").click(function() { return false; });
+
 		$("img.lazy").lazyload({
 			effect : "fadeIn"
 		});
